@@ -162,6 +162,7 @@
 		77E849B51A82BCFA004E6AA3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77E849B41A82BCFA004E6AA3 /* Default-568h@2x.png */; };
 		77FFAB9A1A8AB65300F91F08 /* OEXSegmentAnalyticsTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FFAB991A8AB65300F91F08 /* OEXSegmentAnalyticsTracker.m */; };
 		890D027F1967343A002CE7EC /* OEXCourseInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 890D027E1967343A002CE7EC /* OEXCourseInfoCell.m */; };
+		8997942E1AA7F09D00A717E6 /* bg-568H.png in Resources */ = {isa = PBXBuildFile; fileRef = 8997942D1AA7F09D00A717E6 /* bg-568H.png */; };
 		8F41F4791A834A8F0041B30D /* OEXImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F41F4781A834A8F0041B30D /* OEXImageCache.m */; };
 		8F562F881A1F2D2C00320DB3 /* OEXGoogleSocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F562F871A1F2D2C00320DB3 /* OEXGoogleSocial.m */; };
 		8F562F8C1A1F44FC00320DB3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F562F8B1A1F44FC00320DB3 /* AddressBook.framework */; };
@@ -529,6 +530,7 @@
 		83FF9986B9067DBE805D8967 /* Pods-edXVideoLocker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edXVideoLocker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-edXVideoLocker/Pods-edXVideoLocker.debug.xcconfig"; sourceTree = "<group>"; };
 		890D027D1967343A002CE7EC /* OEXCourseInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEXCourseInfoCell.h; sourceTree = "<group>"; };
 		890D027E1967343A002CE7EC /* OEXCourseInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEXCourseInfoCell.m; sourceTree = "<group>"; };
+		8997942D1AA7F09D00A717E6 /* bg-568H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-568H.png"; sourceTree = "<group>"; };
 		8F41F4771A834A8F0041B30D /* OEXImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEXImageCache.h; sourceTree = "<group>"; };
 		8F41F4781A834A8F0041B30D /* OEXImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEXImageCache.m; sourceTree = "<group>"; };
 		8F562F841A1F2CB300320DB3 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = Libraries/GooglePlus.framework; sourceTree = "<group>"; };
@@ -913,6 +915,7 @@
 				B4B6D6321A94A867000F44E8 /* Registration */,
 				B4B6D6351A94A8AB000F44E8 /* logo@3x.png */,
 				193B501219407B510038E11C /* logo@2x.png */,
+				8997942D1AA7F09D00A717E6 /* bg-568H.png */,
 				B4B6D5ED1A949C92000F44E8 /* splash-start-lg.png */,
 				77E849B41A82BCFA004E6AA3 /* Default-568h@2x.png */,
 				19E1F0341A28C0F300C2E1BE /* bg_map.png */,
@@ -1837,6 +1840,7 @@
 				193B503919459B000038E11C /* OpenSans-BoldItalic.ttf in Resources */,
 				B4AFF3371A9F507700B56821 /* ic_partiallywatched@3x.png in Resources */,
 				1940D8C81A20724B000318A3 /* bt_google.png in Resources */,
+				8997942E1AA7F09D00A717E6 /* bg-568H.png in Resources */,
 				199627971945B9C00022C489 /* bt_logout_deactive.png in Resources */,
 				9CD7D2F31A9499D200E7126E /* OEXHandoutsViewController.xib in Resources */,
 				9CD7D2F11A9499D200E7126E /* OEXCourseInfoTabViewController.xib in Resources */,

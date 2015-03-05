@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-start-lg.png" translatesAutoresizingMaskIntoConstraints="NO" id="llG-np-qNT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg-568H.png" translatesAutoresizingMaskIntoConstraints="NO" id="llG-np-qNT">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2k-lO-XdE">
@@ -2792,6 +2792,7 @@
     </scenes>
     <resources>
         <image name="Splash_map.png" width="480" height="256"/>
+        <image name="bg-568H.png" width="640" height="1136"/>
         <image name="bg_map.png" width="530" height="224"/>
         <image name="bt_blue2.png" width="335" height="60"/>
         <image name="bt_facebook.png" width="245" height="60"/>
@@ -2816,7 +2817,6 @@
         <image name="separator.png" width="526" height="2"/>
         <image name="separator1.png" width="416" height="1"/>
         <image name="separator3.png" width="576" height="2"/>
-        <image name="splash-start-lg.png" width="1122" height="1920"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
