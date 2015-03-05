@@ -1748,6 +1748,7 @@
 						};
 					};
 					BECB7B2B1924C0C3009C77F1 = {
+						DevelopmentTeam = TR2ATFUC8K;
 						TestTargetID = BECB7B0A1924C0C3009C77F1;
 					};
 				};
