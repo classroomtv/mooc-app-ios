@@ -55,14 +55,14 @@
 "FACEBOOK"="Facebook";
 "GOOGLE"="Google";
 "OR_SIGN_IN_WITH"="Or Sign in with";
-"LOGIN_SIGN_IN_TO_EDX"="Sign in to edX";
+"LOGIN_SIGN_IN_TO_EDX"="Sign in to MOOC.org";
 
-// MOB - 1110 - Social login error if the user's account is not linked with edX.
-"GOOGLE_ACCOUNT_NOT_ASSOCIATED_TITLE"="Google account not associated with edX account";
-"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_TITLE"="Facebook account not associated with edX account";
+// MOB - 1110 - Social login error if the user's account is not linked with MOOC.org.
+"GOOGLE_ACCOUNT_NOT_ASSOCIATED_TITLE"="Google account not associated with MOOC.org account";
+"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_TITLE"="Facebook account not associated with MOOC.org account";
 
-"GOOGLE_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Google account is associated with your edX account on edx.org";
-"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Facebook account is associated with your edX account on edx.org";
+"GOOGLE_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Google account is associated with your MOOC.org account on MOOC.org";
+"FACEBOOK_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="Make sure your Facebook account is associated with your MOOC.org account on MOOC.org";
 
 
 
@@ -163,12 +163,12 @@
 
 //RegistrationViewController
 
-"REGISTRATION_SIGN_UP_FOR_EDX"="Sign up for edX";
+"REGISTRATION_SIGN_UP_FOR_EDX"="Sign up for MOOC.org";
 "REGISTRATION_CREATE_MY_ACCOUNT"="Create my account";
 "REGISTRATION_CREATING_ACCOUNT"="Creating account....";
 
-"REGISTRATION_AGREEMENT_MESSAGE"="By creating an edX account,you agree to the ";
-"REGISTRATION_AGREEMENT_BUTTON_TITLE"="edX Terms of Service and Honor Code";
+"REGISTRATION_AGREEMENT_MESSAGE"="By creating a MOOC.org account,you agree to the ";
+"REGISTRATION_AGREEMENT_BUTTON_TITLE"="MOOC.org Terms of Service and Honor Code";
 "REGISTRATION_SHOW_OPTIONAL_FIELDS"="Show optional fields";
 "REGISTRATION_HIDE_OPTIONAL_FIELDS"="Hide optional fields";
 
