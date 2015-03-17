@@ -53,7 +53,16 @@ static OEXConfig* sSharedConfig;
 - (id)initWithDictionary:(NSDictionary*)dictionary {
     self = [super init];
     if(self != nil) {
-        self.properties = dictionary;
+
+        NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithDictionary:dictionary];
+        NSString *url = [dict[OEXAPIHostURL] stringByReplacingOccurrencesOfString:@"http://localhost:8000"
+                                                                        withString:@"http://moocorg.classroom.tv"];
+        NSString *courseUrl = [dict[@"COURSE_SEARCH_URL"] stringByReplacingOccurrencesOfString:@"http://localhost:8000"
+                                                                                         withString:@"http://moocorg.classroom.tv"];
+        [dict setObject:url forKey:OEXAPIHostURL];
+        [dict setObject:courseUrl forKey:@"COURSE_SEARCH_URL"];
+
+        self.properties = dict;
     }
     return self;
 }

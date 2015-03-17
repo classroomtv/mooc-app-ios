@@ -35,6 +35,9 @@ typedef void(^OEXSocialLoginCompletionHandler)(NSString *accessToken ,NSError *e
 +(void)requestTokenWithUser:(NSString * )username password:(NSString * )password CompletionHandler:(RequestTokenCompletionHandler)completionBlock
 
 {
+    
+    NSLog(@"%@", [NSString stringWithFormat:@"%@%@", [OEXConfig sharedConfig].apiHostURL, AUTHORIZATION_URL]);
+    
     NSString *body = [self plainTextAuthorizationHeaderForUserName:username password:password];
     NSURLSessionConfiguration *sessionConfig = [NSURLSessionConfiguration defaultSessionConfiguration];
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@", [OEXConfig sharedConfig].apiHostURL, AUTHORIZATION_URL]]];
